@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bogescan</title>
+        <link rel="shortcut icon" type="image/jpg" href="favicon.ico"/>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+                <div class="header">
+                    <p class="txt">bogescan</p>
+                    <p class="dTxt">bogecoin block explorer</p>
+                    <img src="img/b1.png" alt="boge" width="32" height="32" class="noDrag">
+                    <img src="img/bnblogo.png" alt="bnb" width="32" height="32" class="noDrag">
+                    <p class="priceText">
+                        <span class="mcapPrice">MCap: <em class="pTem mcaptxttop">$$$ <i class="fa fa-caret-up mcaptxtcaret"></i></em></span>
+                        <span class="spanPrice">Price: <em class="pTem pricetxttop"><em class="rawTxtHTML">$$$ </em><i class="fa fa-caret-up pricetxtcaret"></i></em></span>
+                        <!--<span class="">BNB LP: <em class="pTem">$160K USD <i class="fa fa-caret-up"></i></em></span></p>-->
+                </div>
+            
+
+            <main class="main">
+                <div class="content">
+                    <div class="contentCard">
+                        <p class="cTopTxt">Recent Transactions</p>
+                        <hr>
+
+                        <table class="recentTable"> <!--12 lines to fill content box-->
+                            <tr>
+                                <th>Hash</th>
+                                <th>Time</th>
+                                <th>Type</th>
+                                <th>BOGE</th>
+                            </tr>
+                            <tr>
+                                <td><div class="hashTxt"><a href="#" target="_blank">0x0000</a></div></td>
+                                <td>0:00:00</td>
+                                <td><em class="em-transfer">...</em></td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td><div class="hashTxt"><a href="#" target="_blank">0x0000</a></div></td>
+                                <td>0:00:00</td>
+                                <td><em class="em-transfer">...</em></td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td><div class="hashTxt"><a href="#" target="_blank">0x0000</a></div></td>
+                                <td>0:00:00</td>
+                                <td><em class="em-transfer">...</em></td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td><div class="hashTxt"><a href="#" target="_blank">0x0000</a></div></td>
+                                <td>0:00:00</td>
+                                <td><em class="em-transfer">...</em></td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td><div class="hashTxt"><a href="#" target="_blank">0x0000</a></div></td>
+                                <td>0:00:00</td>
+                                <td><em class="em-transfer">...</em></td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td><div class="hashTxt"><a href="#" target="_blank">0x0000</a></div></td>
+                                <td>0:00:00</td>
+                                <td><em class="em-transfer">...</em></td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td><div class="hashTxt"><a href="#" target="_blank">0x0000</a></div></td>
+                                <td>0:00:00</td>
+                                <td><em class="em-transfer">...</em></td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td><div class="hashTxt"><a href="#" target="_blank">0x0000</a></div></td>
+                                <td>0:00:00</td>
+                                <td><em class="em-transfer">...</em></td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td><div class="hashTxt"><a href="#" target="_blank">0x0000</a></div></td>
+                                <td>0:00:00</td>
+                                <td><em class="em-transfer">...</em></td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td><div class="hashTxt"><a href="#" target="_blank">0x0000</a></div></td>
+                                <td>0:00:00</td>
+                                <td><em class="em-transfer">...</em></td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td><div class="hashTxt"><a href="#" target="_blank">0x0000</a></div></td>
+                                <td>0:00:00</td>
+                                <td><em class="em-transfer">...</em></td>
+                                <td>...</td>
+                            </tr>
+                        </table>
+
+                    </div>
+                </div>
+
+                <div class="content2">
+                    <p class="cTopTxt">Search Transaction</p>
+                    <hr>
+                    <div class="searchContainer">
+
+                        <input type="text" class="block_name" name="block_name" placeholder="Search transaction..." id="block_name">
+                        <input type="button" class="block_run" name="submit" value="Check" id="block_run">
+                        <table id="hash-display-1">
+                            <tr>
+                                <th>Hash</th>
+                                <td class="hashTxt2"><a href="" target="_blank"></a></td>
+                            </tr>
+                            <tr>
+                                <th>Confirmations</th>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>Time</th>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>Sender</th>
+                                <td class="hashTxt2"><a href="" target="_blank"></a></td>
+                            </tr>
+                            <tr>
+                                <th>Recipient</th>
+                                <td class="hashTxt2"><a href="" target="_blank"></a></td>
+                            </tr>
+                            <tr>
+                                <th>Amount</th>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>Block</th>
+                                <td></td>
+                            </tr>
+                        </table>
+
+                    </div>
+                </div>
+
+                <div class="contentPie">
+                    <p class="cTopTxt">Pie Chart</p>
+                    <hr>
+                    <div class="container">
+                        <p class="price"></p>
+                        <p id="tooltip-red"></p>
+                        <svg class="chart" xlmns="http://www.w3.org/2000/svg">
+                            <circle  cx="200" cy="200" class="donut" r="150" stroke-width="30" stroke="#C03939" fill="none"/>
+                            <circle  cx="200" cy="200" class="donut" r="150" stroke-width="30" stroke="#4FC039" fill="none"/>
+                            <circle  cx="200" cy="200" class="donut" r="150" stroke-width="30" stroke="#C0BE39" fill="none"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="contentLarge">
+                    <p class="cTopTxt">Live Chart</p>
+                    <hr>
+                    <iframe src="https://goswappcharts.web.app/?tokenId=0x248c45af3b2f73bc40fa159f2a90ce9cad7a77ba&amp;isbsc=true&amp;showInUSD=true&amp;symbol=BOGE&amp;version=1" style="border-style: none; border-color: rgb(248, 231, 241); width: 600px; height: 453px; pointer-events: auto; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 5.5, 13.5); opacity: 0.9;"></iframe>
+
+                </div>
+            </main>
+
+            <footer>
+                <div class=footerMsg>
+                    <p>&copy Bogecoin Project / Bogescan / <a href="https://bogecoin.org/" target="_blank">bogecoin.org</a></p>
+                    <p class="footerS"><i>Bogescan v1.0 Developed by Sol & Vax, powered by <em class="bem">Binance</em> / BSCScan</i></p>
+                </div>
+
+                <div class="socialArea">
+                    <a class="ffa" href="https://t.me/bogecoin" target="_blank"><i class="fa fa-telegram"></i></a>
+                    <a class="ffa" href="https://twitter.com/bogecoin" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                    <a class="ffa" href="https://reddit.com/r/bogecoin" target="_blank"><i class="fa fa-reddit-square"></i></a>
+                    <a class="ffa" href="https://github.com/bogecoin/bogecoin" target="_blank"><i class="fa fa-github-square"></i></a>
+                    <a class="ffa" href="mailto:sol@bogecoin.org" target="_blank"><i class="fa fa-envelope-square"></i></a>
+                </div>
+            </footer>
+        </div>
+        
+    </body>
+    <script src="latestv4.js"></script>
+   
+</html>
